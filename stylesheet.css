@@ -1,0 +1,62 @@
+body { 
+    font-family: Arial;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titlesection {
+    width: 1450px;
+    text-align: left;
+    background-color: skyblue;
+    height: 500px;
+}
+
+.aboutme, .description {
+    background-color: steelblue;
+    height: 500px;
+    margin-top: 0px;
+}
+
+.description {
+    float: right;
+    width: 60%;
+}
+
+.aboutme {
+    float: left;
+    width: 40%;
+}
+
+h1 {
+    font-size: 55pt;
+    font-family: 'Inter', sans-serif;
+    padding-top: 170px;
+    padding-left: 100px;
+    margin-top: 0px;
+    color: white;
+}
+h2 {
+    font-size: 20pt;
+    font-family: 'Inter', sans-serif;	
+    padding-left: 100px;
+    color: white;
+}
+
+h3 {
+    font-size: 30pt;
+    padding-left: 100px;
+    padding-top: 80px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    padding-top: 80px;
+    font-size: 20px;
+    padding-right: 50px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5em;
+}
