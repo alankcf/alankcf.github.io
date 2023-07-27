@@ -6,17 +6,17 @@ body {
 * {
     margin: 0;
     padding: 0;
-}
+} 
 
 .titlesection {
-    width: 1450px;
+    width: 100%;
     text-align: left;
     background-color: skyblue;
     height: 500px;
 }
 
 .aboutme, .description {
-    background-color: steelblue;
+    background-color: #FFB703;
     height: 500px;
     margin-top: 0px;
 }
@@ -29,6 +29,10 @@ body {
 .aboutme {
     float: left;
     width: 40%;
+}
+
+.education {
+    background-color: #219EBC;
 }
 
 h1 {
@@ -46,17 +50,54 @@ h2 {
     color: white;
 }
 
-h3 {
+h3.welcome, h3.educationtitle {
     font-size: 30pt;
-    padding-left: 100px;
-    padding-top: 80px;
+    padding-left: 95px;
+    padding-top: 85px;
     font-family: 'Work Sans', sans-serif;
 }
 
-p {
+h3.educationtitle {
+    padding-top: 550px;
+}
+
+h4.schoolname {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18pt;
+    padding-top: 70px;
+    padding-left: 95px;
+}
+
+h5.typeofdegree {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10pt;
+    padding-top: 10px;
+    padding-left: 95px;
+}
+
+p.whoami {
     padding-top: 80px;
+    padding-left: 55px;
     font-size: 20px;
-    padding-right: 50px;
+    padding-right: 85px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5em;
+}
+
+p.whoami2 {
+    padding-top: 30px;
+    padding-left: 55px;
+    font-size: 20px;
+    padding-right: 85px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5em;
+}
+
+p.classwork {
+    padding-top: 10px;
+    padding-left: 95px;
+    font-size: 15px;
+    padding-right: 85px;
     font-family: 'Work Sans', sans-serif;
     line-height: 1.5em;
 }
