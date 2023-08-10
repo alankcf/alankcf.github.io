@@ -12,9 +12,15 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Work+Sans&display=swap" rel="stylesheet">
 
-
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+		<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+		
 		<!--stylesheet link-->
 		<link href = "stylesheet.css" type="text/css" rel="stylesheet">
+
+		<!--responsive-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<style> 
 
@@ -27,6 +33,17 @@
 	</head>
 
 <body>
+	<header class = "banner">
+		<p class = "construction"> &#128679; Thank you for visiting! Please note this project is ongoing, and 
+			parts of this page are being updated. As such, some portions may not work as intended. &#128679;
+		</p>
+	</header>
+
+	<header class = "navigation">
+			<a class = "nav" href="#aboutme">About Me</a></li>
+			<a class = "nav" href="#education">Education</a></li>
+			<a class = "nav"" href="#work">Projects</a></li>
+	</header>
 	<header class = "titlesection">
 		<!--<div class = "titlesection">-->
 			<h1>Hello &#128075;, I'm Alan,</h1> <!--title-->
@@ -34,13 +51,13 @@
 		<!--</div>-->
 	</header>
 
-	<aside class = "aboutme">
+	<aside class = "aboutme" id = "aboutme">
 		<!--<div class = "aboutme">-->
-			<h3 class = "sections"> Welcome to my website!</h3>
+			<h3 class = "sections"> Welcome!</h3>
 		<!--</div>-->
 	</aside>
 
-	<section class = "description">
+	<section class = "description" id = "description">
 		<!--<div class = "description">-->
 			<p class = "whoami"> This is <a href = "https://github.com/alankcf/alankcf.github.io">version 1</a> of my personal webpage. This is a beginner project, made entirely from scratch!
 			I'm Alan Fung, a first-year Engineering student @ <a href = "https://engineering.ubc.ca">UBC</a> in Vancouver, Canada.
@@ -52,7 +69,7 @@
 		<!--</div>-->
 	</section>	
 
-	<section class = "education">
+	<section class = "education" id = "education">
 
 		<h3 class = "educationtitle"> Education </h3> <!--subtitles-->
 
@@ -68,14 +85,13 @@
 		</ol> <!--numbered list-->
 	</section>
 
-	<section class = "work">
+	<section class = "work" id = "work">
 		<h3 class = "sections"> Work</h3>
-		<button class = "button project1" onclick="window.location.href='https://fonts.google.com/';"> 
+		<button class = "button project1" onclick="window.location.href='https://github.com/alankcf/alankcf.github.io';"> 
 			<h3 class = "buttontitle"> Website</h3>
 			My first personal website as I was learning HTML and CSS, made from scratch. A GitHub Pages site.
 		</button>
 		
-		<a href = "https://github.com/alankcf/alankcf.github.io">Website</a> <!--attaching a link-->
 		<!--links to github games (dungeon crawl, asteroids, atari breakout etc), -->
 		<!--replit wordle-->
 		<!--replit calculator (coming)-->
