@@ -3,54 +3,20 @@ body {
     color: black;
 }
 
+/* Formatting for all elements in site */
 * {
     margin: 0;
     padding: 0;
 } 
 
-.button {
-    transition-duration: 0.7s;
-    cursor: pointer;
-}
-
-.titlesection {
-    width: 100%;
-    text-align: left;
-    background-color: #02C39A;
-    height: 580px;
-}
-
-.aboutme, .description {
-    background-color: #48cae4;
-    height: 500px;
-    margin-top: 0px;
-}
-
-.description {
-    float: right;
-    width: 60%;
-}
-
-.aboutme {
-    float: left;
-    width: 40%;
-}
-
-.education {
-    background-color: #00A896;
-}
-
-.work {
-    background-color: #ADE8F4;
-    font-family: 'Inter', sans-serif;	
-}
-
+/* Formatting site banner at top of site */
 .banner {
     background-color: orange;
     font-family: 'Varela Round', sans-serif;
     width: 100%;
 }
 
+/* Formatting navigation bars at top of site */
 .navigation {
     background-color:#003566;
     text-align: center;
@@ -61,6 +27,57 @@ body {
     padding: 20px;
 }
 
+/* Formatting for title page of site */
+.titlesection {
+    width: 100%;
+    text-align: left;
+    background-color: #025cc3;
+    /*background-image: url('images/plane.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+}
+
+/* Formatting for website description section */
+.aboutme, .description {
+    background-color: #48cae4;
+    height: 400px;
+    margin-top: 0px;
+}
+
+.description {
+    float: right;
+    width: 60%;
+}
+
+.aboutme {
+    float: left;
+    
+    width: 40%;
+}
+
+/* Formatting for education section */
+.education {
+    background-color: #00A896;
+}
+
+/* Formatting for work and project section */
+.work {
+    background-color: #ADE8F4;
+    font-family: 'Inter', sans-serif;	
+}
+
+/* Formatting for footer section */
+footer {
+    width: 100%;
+    background-color: rgb(53, 51, 83);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* navigation link formatting */
 a.nav:link {
     text-decoration: none;
     color: white;
@@ -80,6 +97,7 @@ a.nav:link {
     text-decoration: underline;
   }
 
+/* Font formatting: h1 for large title page font */
 h1 {
     font-size: 55pt;
     font-family: 'Inter', sans-serif;
@@ -88,13 +106,17 @@ h1 {
     margin-top: 0px;
     color: white;
 }
+
+/* Font formatting: h2 for smaller title page font */
 h2 {
     font-size: 20pt;
     font-family: 'Inter', sans-serif;	
     padding-left: 100px;
+    padding-bottom: 190px;
     color: white;
 }
 
+/* Font formatting: h3 for section title font */
 h3 {
     font-size: 50px; /* % of browser window size */
     font-family: 'Inter', sans-serif;
@@ -107,24 +129,19 @@ h3.sections {
 }
 
 h3.educationtitle {
-    padding-top: 550px;
+    padding-top: 450px;
     padding-bottom: 60px;
     padding-left: 95px;
 }
 
-h3.buttontitle {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin: 0px;
-    text-align: top;
-}
-
+/* Font formatting: h4 for items in education list */
 h4.schoolname {
     font-family: 'Work Sans', sans-serif;
     font-size: 18pt;
     padding-left: 95px;
 }
 
+/* Font formatting: h5 for type of degree for each item in list */
 h5.typeofdegree {
     font-family: 'Work Sans', sans-serif;
     font-size: 10pt;
@@ -132,6 +149,7 @@ h5.typeofdegree {
     padding-left: 95px;
 }
 
+/* Font format for site description text, first paragraph */
 p.whoami {
     padding-top: 80px;
     padding-left: 55px;
@@ -141,8 +159,9 @@ p.whoami {
     line-height: 1.5em;
 }
 
+/* Font format for site description text, second paragraph */
 p.whoami2 {
-    padding-top: 30px;
+    padding: 30px;
     padding-left: 55px;
     font-size: 20px;
     padding-right: 85px;
@@ -150,6 +169,7 @@ p.whoami2 {
     line-height: 1.5em;
 }
 
+/* Font format for education description text */
 p.classwork {
     padding-top: 10px;
     padding-left: 95px;
@@ -160,35 +180,11 @@ p.classwork {
     line-height: 1.5em;
 }
 
+/* Font format for banner text */
 p.construction {
     padding: 10px;
     font-size: 15px;
     text-align: center;
-}
-
-.project1 {
-    background-color: #003566;
-    color: white;
-    border: 2px solid #003566;
-    font-size: 15px;
-    margin: 100px;
-    height: 500px;
-    width: 400px;
-}
-
-.project1:hover, .project1name:hover {
-    background-color: rgb(245, 245, 245);
-    color: #003566;
-    border: 2px solid white;
-}
-
-.project1name {
-    background-color: #003566;
-    color: white;
-    border: 2px solid white;
-    font-size: 20px;
-    padding: 80px 20px;
-    margin: 1px 0px;
 }
 
 @media screen and (max-width: 1000px) {
