@@ -11,20 +11,22 @@ body {
 
 /* Formatting site banner at top of site */
 .banner {
+    width: 100%;
     background-color: orange;
     font-family: 'Varela Round', sans-serif;
-    width: 100%;
+    padding: 0px;
 }
 
 /* Formatting navigation bars at top of site */
 .navigation {
+    width: 100%;
     background-color:#003566;
     text-align: center;
     font-size: 20px;
     font-family: 'Varela Round', sans-serif;
-    width: 100%;
     color: white;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Formatting for title page of site */
@@ -52,7 +54,6 @@ body {
 
 .aboutme {
     float: left;
-    
     width: 40%;
 }
 
@@ -67,35 +68,52 @@ body {
     font-family: 'Inter', sans-serif;	
 }
 
+/* Formatting for project descriptions */
+.project1, .project2 {
+    padding-top: 90px;
+    padding-bottom: 40px;
+    width: 75%;
+    padding-right: 0px;
+    margin: auto;
+}
+
+.projectwebsite, .project2description {
+    padding: 90px;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 25px;
+}
+
 /* Formatting for footer section */
 footer {
     width: 100%;
     background-color: rgb(53, 51, 83);
     text-align: center;
     color: white;
-    padding: 10px;
     font-family: 'Varela Round', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* navigation link formatting */
 a.nav:link {
     text-decoration: none;
     color: white;
-    padding: 50px;
-  }
+    padding: 70px;
+}
   
-  a.nav:visited {
+a.nav:visited {
     text-decoration: none;
     color: white;
-  }
+}
   
-  a.nav:hover {
+a.nav:hover {
     text-decoration: underline;
-  }
+}
   
-  a.nav:active {
+a.nav:active {
     text-decoration: underline;
-  }
+}
 
 /* Font formatting: h1 for large title page font */
 h1 {
@@ -130,7 +148,7 @@ h3.sections {
 
 h3.educationtitle {
     padding-top: 450px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     padding-left: 95px;
 }
 
@@ -197,13 +215,22 @@ p.construction {
         height: 180px;
     }
 
-    h3.sections {
+    h3.sections, h3.educationtitle {
         text-align: center;
         padding-left: 0;
+    }
+
+    h3.educationtitle {
+        padding-top: 640px;
+        padding-bottom: 40px;
     }
 
     p.whoami, p.whoami2 {
         padding: 40px;
         padding-top: 20px;
     }
+
+    a.nav:link {
+        padding: 35px;
+     }
 }
