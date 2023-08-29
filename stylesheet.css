@@ -12,7 +12,7 @@ body {
 /* Formatting site banner at top of site */
 .banner {
     width: 100%;
-    background-color: orange;
+    background-color: skyblue;
     font-family: 'Varela Round', sans-serif;
     padding: 0px;
 }
@@ -33,7 +33,7 @@ body {
 .titlesection {
     width: 100%;
     text-align: left;
-    background-color: #025cc3;
+    background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);/*#025cc3;*/
     /*background-image: url('images/plane.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -42,7 +42,7 @@ body {
 
 /* Formatting for website description section */
 .aboutme, .description {
-    background-color: #48cae4;
+    background-color: skyblue;
     height: 400px;
     margin-top: 0px;
 }
@@ -59,7 +59,8 @@ body {
 
 /* Formatting for education section */
 .education {
-    background-color: #00A896;
+    background-color: #ADE8F4;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 /* Formatting for work and project section */
@@ -70,7 +71,7 @@ body {
 
 /* Formatting for project descriptions */
 .project1, .project2 {
-    padding-top: 90px;
+    padding-top: 80px;
     padding-bottom: 40px;
     width: 75%;
     padding-right: 0px;
@@ -78,11 +79,18 @@ body {
 }
 
 .projectwebsite, .project2description {
-    padding: 90px;
+    padding: 50px;
     padding-left: 30px;
     background-color: white;
     border-radius: 25px;
+    transition: box-shadow .6s;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
 }
+
+.projectwebsite:hover, .project2description:hover {
+    box-shadow: 0 0 35px rgba(30, 30, 30, 0.356); 
+} 
 
 /* Formatting for footer section */
 footer {
@@ -106,12 +114,17 @@ a.nav:visited {
     text-decoration: none;
     color: white;
 }
+
+a.project:visited {
+    text-decoration: none;
+    color: black;
+}
   
-a.nav:hover {
+a.nav:hover, a.project:hover {
     text-decoration: underline;
 }
   
-a.nav:active {
+a.nav:active, a:project:hover {
     text-decoration: underline;
 }
 
