@@ -40,6 +40,17 @@ body {
     background-size: cover; */
 }
 
+/* Formatting for header icons */
+.fa {
+    padding-top: 12px;
+    padding-left: 100px;
+    padding-bottom: 190px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+  }
+
 /* Formatting for website description section */
 .aboutme, .description {
     background-color: skyblue;
@@ -143,7 +154,6 @@ h2 {
     font-size: 20pt;
     font-family: 'Inter', sans-serif;	
     padding-left: 100px;
-    padding-bottom: 190px;
     color: white;
 }
 
@@ -174,7 +184,7 @@ h4.schoolname {
 
 /* Font formatting: h5 for type of degree for each item in list */
 h5.typeofdegree {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 10pt;
     padding-top: 10px;
     padding-left: 95px;
