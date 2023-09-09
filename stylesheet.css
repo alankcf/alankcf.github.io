@@ -17,10 +17,16 @@ body {
     padding: 0px;
 }
 
+/* Font format for banner text */
+p.construction {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
 /* Formatting navigation bars at top of site */
 .navigation {
-    width: 100%;
-    background-color:#003566;
+    width: 100%;  
     text-align: center;
     font-size: 20px;
     font-family: 'Varela Round', sans-serif;
@@ -29,10 +35,29 @@ body {
     padding-bottom: 20px;
 }
 
+/* navigation link formatting */
+a.nav:link {
+    text-decoration: none;
+    color: white;
+    padding: 6%;
+}
+  
+a.nav:visited {
+    text-decoration: none;
+    color: white;
+}
+  
+a.nav:hover, a.project:hover {
+    font-weight: bold;
+}
+  
+a.nav:active {
+    text-decoration: underline;
+}
+
 /* Formatting for title page of site */
 .titlesection {
     width: 100%;
-    text-align: left;
     background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);/*#025cc3;*/
     /*background-image: url('images/plane.jpeg');
     background-repeat: no-repeat;
@@ -40,15 +65,35 @@ body {
     background-size: cover; */
 }
 
+/* Font formatting: h1 for large title page font */
+h1 {
+    font-size: 55pt;
+    padding-top: 180px;
+}
+
+/* Font formatting: h2 for smaller title page font */
+h2 {
+    font-size: 20pt;
+}
+
+h1, h2 {
+    padding-left: 12%;
+    padding-right: 12%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;	
+    color: white;
+}
+
 /* Formatting for header icons */
 .fa {
-    padding-top: 12px;
-    padding-left: 100px;
+    padding-top: 15px;
+    padding-left: 47%;
+    padding-right: 47%;
     padding-bottom: 190px;
 }
 
 .fa:hover {
-    opacity: 0.9;
+    opacity: 0.65;
   }
 
 /* Formatting for website description section */
@@ -70,7 +115,6 @@ body {
 
 /* Formatting for education section */
 .education {
-    background-color: #ADE8F4;
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
@@ -99,6 +143,11 @@ body {
     text-align: center;
 }
 
+a.project:visited {
+    text-decoration: none;
+    color: black;
+}
+
 .projectwebsite:hover, .project2description:hover {
     box-shadow: 0 0 35px rgba(30, 30, 30, 0.356); 
 } 
@@ -112,49 +161,6 @@ footer {
     font-family: 'Varela Round', sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-/* navigation link formatting */
-a.nav:link {
-    text-decoration: none;
-    color: white;
-    padding: 70px;
-}
-  
-a.nav:visited {
-    text-decoration: none;
-    color: white;
-}
-
-a.project:visited {
-    text-decoration: none;
-    color: black;
-}
-  
-a.nav:hover, a.project:hover {
-    text-decoration: underline;
-}
-  
-a.nav:active, a:project:hover {
-    text-decoration: underline;
-}
-
-/* Font formatting: h1 for large title page font */
-h1 {
-    font-size: 55pt;
-    font-family: 'Inter', sans-serif;
-    padding-top: 180px;
-    padding-left: 100px;
-    margin-top: 0px;
-    color: white;
-}
-
-/* Font formatting: h2 for smaller title page font */
-h2 {
-    font-size: 20pt;
-    font-family: 'Inter', sans-serif;	
-    padding-left: 100px;
-    color: white;
 }
 
 /* Font formatting: h3 for section title font */
@@ -221,21 +227,19 @@ p.classwork {
     line-height: 1.5em;
 }
 
-/* Font format for banner text */
-p.construction {
-    padding: 10px;
-    font-size: 15px;
-    text-align: center;
-}
-
 @media screen and (max-width: 1000px) {
     .aboutme, .description {
         width: 100%;
         float: left;
+        background-color: skyblue;
     }
 
     .aboutme {
         height: 180px;
+    }
+
+    h2 {
+        padding: 5px;
     }
 
     h3.sections, h3.educationtitle {

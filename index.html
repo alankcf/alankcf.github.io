@@ -37,23 +37,34 @@
 		</p>
 	</header>
 
-	<!--structure of the navigation bars-->
-	<header class = "navigation">
+	<!--structure of the title page-->
+	<header class = "titlesection">
+		<!--structure of the navigation bars-->
+		<section class = "navigation">
 			<a class = "nav" href="#aboutme">About Me</a></li>
 			<a class = "nav" href="#education">Education</a></li>
 			<a class = "nav"" href="#work">Projects</a></li>
-	</header>
+		</section>
+		<h1>Hello &#128075;, I'm Alan,</h1> <!--title-->
+		<h2>a first year <span id = "adjectives"></span></h2>
 
-	<!--structure of the title page-->
-	<header class = "titlesection">
-		<!--<div class = "titlesection">-->
-			<h1>Hello &#128075;, I'm Alan,</h1> <!--title-->
-			<h2>a first year engineer at UBC.</h2>
-			<a href="https://github.com/alankcf" target="_blank">
-				<i class="fa fa-github-square"style="font-size:58px; color: white;"></i>
-				</a>
-			
-			</header>
+		<!--text animation to switch adjectives-->
+		<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+		<script>
+			var typed = new Typed('#adjectives', {
+			  strings: ['engineer.', 'hiker.', 'student.', 'risk-taker.', 'empathetic.'],
+			  typeSpeed: 100,
+			  backSpeed: 50,
+			  backDelay: 2000,
+			  loop: true
+			});
+		</script>
+
+		<!--icons-->
+		<a href="https://github.com/alankcf" target="_blank">
+		<i class="fa fa-github-square"style="font-size:58px; color: white;"></i>
+		</a>
+	</header>
 
 	<!--structure of the title for description-->
 	<aside class = "aboutme" id = "aboutme">
