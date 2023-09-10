@@ -1,6 +1,7 @@
-body { 
+body, html { 
     font-family: Arial;
     color: black;
+    scroll-behavior: smooth;
 }
 
 /* Formatting for all elements in site */
@@ -63,32 +64,31 @@ a.nav:active {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; */
+    text-align: center;
 }
 
 /* Font formatting: h1 for large title page font */
 h1 {
-    font-size: 55pt;
+    font-size: 77px;
     padding-top: 180px;
 }
 
 /* Font formatting: h2 for smaller title page font */
 h2 {
-    font-size: 20pt;
+    font-size: 30px;
 }
 
 h1, h2 {
     padding-left: 12%;
     padding-right: 12%;
     text-align: center;
-    font-family: 'Inter', sans-serif;	
     color: white;
+    font-family: 'Rubik', sans-serif;
 }
 
 /* Formatting for header icons */
 .fa {
     padding-top: 15px;
-    padding-left: 47%;
-    padding-right: 47%;
     padding-bottom: 190px;
 }
 
@@ -98,24 +98,32 @@ h1, h2 {
 
 /* Formatting for website description section */
 .aboutme, .description {
-    background-color: skyblue;
-    height: 400px;
+    background-color: skyblue; 
     margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
 }
 
-.description {
-    float: right;
-    width: 60%;
-}
-
-.aboutme {
-    float: left;
-    width: 40%;
+/* Font format for site description text, first paragraph */
+p.whoami {
+    font-size: 20px;
+    padding: 90px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.5em;
 }
 
 /* Formatting for education section */
 .education {
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(181,182,124,1) 100%);
+}
+
+h3.educationtitle {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 95px;
 }
 
 /* Formatting for work and project section */
@@ -175,45 +183,19 @@ h3.sections {
     padding-top: 85px;
 }
 
-h3.educationtitle {
-    padding-top: 450px;
-    padding-bottom: 30px;
-    padding-left: 95px;
-}
-
 /* Font formatting: h4 for items in education list */
 h4.schoolname {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;	
     font-size: 18pt;
     padding-left: 95px;
 }
 
 /* Font formatting: h5 for type of degree for each item in list */
 h5.typeofdegree {
-    font-family: 'Arial', sans-serif;
     font-size: 10pt;
     padding-top: 10px;
     padding-left: 95px;
-}
-
-/* Font format for site description text, first paragraph */
-p.whoami {
-    padding-top: 80px;
-    padding-left: 55px;
-    font-size: 20px;
-    padding-right: 85px;
-    font-family: 'Varela Round', sans-serif;
-    line-height: 1.5em;
-}
-
-/* Font format for site description text, second paragraph */
-p.whoami2 {
-    padding: 30px;
-    padding-left: 55px;
-    font-size: 20px;
-    padding-right: 85px;
-    font-family: 'Varela Round', sans-serif;
-    line-height: 1.5em;
+    font-family: 'Noto Sans Sogdian', sans-serif;
 }
 
 /* Font format for education description text */
