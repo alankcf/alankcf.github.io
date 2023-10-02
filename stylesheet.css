@@ -89,7 +89,7 @@ h1, h2 {
 /* Formatting for header icons */
 .fa {
     padding-top: 15px;
-    padding-bottom: 190px;
+    padding-bottom: 230px;
 }
 
 .fa:hover {
@@ -98,7 +98,7 @@ h1, h2 {
 
 /* Formatting for website description section */
 .aboutme, .description {
-    background-color: skyblue; 
+    background-color: #10769e; 
     margin-top: 0px;
     width: 100%;
     text-align: center;
@@ -117,7 +117,8 @@ p.whoami {
 
 /* Formatting for education section */
 .education {
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(181,182,124,1) 100%);
+    /*background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(181,182,124,1) 100%);
+    */background-color: #10769e;
 }
 
 h3.educationtitle {
@@ -128,7 +129,7 @@ h3.educationtitle {
 
 /* Formatting for work and project section */
 .work {
-    background-color: #ADE8F4;
+    background-color: #10769e;
     font-family: 'Inter', sans-serif;	
 }
 
@@ -153,11 +154,11 @@ h3.educationtitle {
 
 a.project:visited {
     text-decoration: none;
-    color: black;
+    
 }
 
 .projectwebsite:hover, .project2description:hover {
-    box-shadow: 0 0 35px rgba(30, 30, 30, 0.356); 
+    box-shadow: 0 0 95px rgba(0, 0, 0, 0.356); 
 } 
 
 /* Formatting for footer section */
@@ -210,16 +211,11 @@ p.classwork {
 }
 
 @media screen and (max-width: 1000px) {
-    .aboutme, .description {
-        width: 100%;
-        float: left;
-        background-color: skyblue;
-    }
 
-    .aboutme {
-        height: 180px;
+    h1 {
+        padding-left: 7%;
+        padding-right: 7%;
     }
-
     h2 {
         padding: 5px;
     }
@@ -230,16 +226,31 @@ p.classwork {
     }
 
     h3.educationtitle {
-        padding-top: 640px;
         padding-bottom: 40px;
     }
 
     p.whoami, p.whoami2 {
         padding: 40px;
-        padding-top: 20px;
+        padding-top: 0px;
     }
 
     a.nav:link {
         padding: 35px;
-     }
+    }
+
+    /* navigation link formatting */
+    a.nav:link {
+        text-decoration: none;
+        color: white;
+        padding: 3%;
+    }
+
+    h4 {
+        text-align: center;
+        padding: 0;
+    }
+    h4.schoolname, h5.typeofdegree, p.coursework {
+        text-align: center;
+        padding-left: 0px;
+    }
 }
