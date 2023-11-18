@@ -98,7 +98,7 @@ h1, h2 {
 
 /* Formatting for website description section */
 .aboutme, .description {
-    background-color: #10769e; 
+    background-color: skyblue; 
     margin-top: 0px;
     width: 100%;
     text-align: center;
@@ -129,20 +129,20 @@ h3.educationtitle {
 
 /* Formatting for work and project section */
 .work {
-    background-color: #10769e;
+    background-color: skyblue;
     font-family: 'Inter', sans-serif;	
 }
 
 /* Formatting for project descriptions */
-.project1, .project2 {
-    padding-top: 80px;
-    padding-bottom: 40px;
+.project1, .project2, .project3 {
+    padding-top: 50px;
+    padding-bottom: 30px;
     width: 75%;
     padding-right: 0px;
     margin: auto;
 }
 
-.projectwebsite, .project2description {
+.projectwebsite, .project3description, .project2describe {
     padding: 50px;
     padding-left: 30px;
     background-color: white;
@@ -157,7 +157,7 @@ a.project:visited {
     
 }
 
-.projectwebsite:hover, .project2description:hover {
+.projectwebsite:hover, .project3description:hover, .project2describe:hover {
     box-shadow: 0 0 95px rgba(0, 0, 0, 0.356); 
 } 
 
