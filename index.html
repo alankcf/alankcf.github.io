@@ -1,4 +1,11 @@
+<!--
+Name: 			Alan Fung
+Date:			December 2023 (Last Updated)
+Description:	Personal Website
+-->
+
 <!DOCTYPE html>
+
 <html>
 	<head>
 		<title>Alan Fung</title> <!--Title on the Tab-->
@@ -27,21 +34,24 @@
 
 <body>
 
-	<!--structure of the site banner-->
+	<!--site banner-->
 	<header class = "banner">
 		<p class = "construction"> &#128679; Thank you for visiting! Please note that this site is under
 			ongoing updates. As such, some portions may not work as intended. &#128679;
 		</p>
 	</header>
 
-	<!--structure of the title page-->
+	<!--title page-->
 	<header class = "titlesection">
-		<!--structure of the navigation bars-->
+		
+		<!--navigation bars-->
 		<section class = "navigation">
-			<a class = "nav" href="#aboutme">About Me</a></li>
+			<a class = "nav" href="#aboutme">About</a></li>
 			<a class = "nav" href="#education">Education</a></li>
 			<a class = "nav"" href="#work">Projects</a></li>
 		</section>
+
+		<!--introduction-->
 		<h1>Hello &#128075;, I'm Alan,</h1> <!--title-->
 		<h2>a<span id = "adjectives"></span></h2>
 
@@ -50,7 +60,7 @@
 		<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 		<script>
 			var typed = new Typed('#adjectives', {
-			  strings: ['n engineering student.', 'n explorer.', ' risk-taker.', 'n empathetic.'],
+			  strings: ['n engineering student.', 'n explorer.', '&nbsp;risk-taker.', 'n empathetic.'],
 			  typeSpeed: 100,
 			  backSpeed: 50,
 			  backDelay: 2000,
@@ -67,36 +77,33 @@
 		</a>
 	</header>
 	
-	<!--structure of the title for description-->
+	<!--title for site description-->
 	<aside class = "aboutme" id = "aboutme">
-		<!--<div class = "aboutme">-->
 			<h3> Welcome!</h3>
-		<!--</div>-->
 	</aside>
 
-	<!--structure of the text in site description-->
+	<!--site description-->
 	<section class = "description" id = "description">
-		<!--<div class = "description">-->
 		<p class = "whoami"> This is <a href = "https://github.com/alankcf/alankcf.github.io">version 1</a> of my personal webpage. This is a beginner project, made entirely from scratch!
 			I'm Alan Fung, a first-year Engineering student studying at the <a href = "https://engineering.ubc.ca">University of British Columbia</a> in Vancouver, Canada.
-			I expect to graduate in 2027. My interests include the applications of computers in transportation, security, and user experience. Outside of school and extracurriculars, you'll probably catch me playing the piano, 
-			hiking, and exploring the West Coast. I appreciate your coming here. Enjoy! </p>
+			I expect to graduate by 2027. My interests include the applications of computers in transportation, security, and user experience. Outside of school, you'll probably catch me playing the piano, 
+			hiking, and exploring the West Coast. I appreciate your visit. Please feel free to reach out on Linkedin! </p>
 		<!--</I've been studying computer science and programming since I was a sophomore at high school. Since then, I've become acquainted
-			with coding in Processing, Java, HTML, and CSS. Please feel free to reach out! >-->
+			with coding in Processing, Java, HTML, and CSS. >-->
 	</section>	
 
-	<!--structure of education section-->
+	<!--education portion-->
 	<section class = "education" id = "education">
 
 		<h3 class = "educationtitle"> Education </h3> <!--subtitles-->
 
 		<h4 class = "schoolname">University of British Columbia</h4>
 		<h5 class = "typeofdegree">Bachelor of Applied Science | 2023-Present</h5>
-		<p class = "classwork"> Coursework: <br> Computation, Electrostatics, Engineering Design, Research Writing, Linear Systems, and Computation.  </p>
+		<p class = "classwork"> Coursework: Computation, Electrostatics, Engineering Design, Research Writing & Linear Systems.  </p>
 	 	
 		<h4 class = "schoolname">Lord Byng Secondary School</h4>
 		<h5 class = "typeofdegree">High School Degree | 2018-2023</h5>
-		<p class = "classwork"> Graduated with Honours with a <a href = "https://www2.gov.bc.ca/gov/content/education-training/k-12/support/scholarships/provincial-scholarships/bc-achievement-scholarships">BC Achievement Scholarship</a>.</p>
+		<p class = "classwork"> Graduated with Honours with a BC Achievement Scholarship.</p>
 		<!--<ol>-->
 			<!--<li></li> list-->
 		<!--</ol> numbered list-->
@@ -114,7 +121,7 @@
 				<p class = project2describe>
 					<a class = "project" href="https://sites.google.com/view/byngcapstone/home" target="_blank" rel="noopener noreferrer"> <b>Media Literacy Website</b></a> <br><br><br>
 					A past project I made that explores the foundations of <a href = https://en.wikipedia.org/wiki/Media_literacy#:~:text=Media%20literacy%20enables%20the%20populace,their%20views%20regarding%20a%20position.>media literacy</a> 
-					as we recieve information in increasingly digitalized forms. With that, comes dangers of deception, bias, and disinformation. Made by Google Sites.
+					as we receive information in increasingly digitalized forms. Discussions of the danger of deception, bias, and disinformation. Made by Google Sites.
 				</p>
 			</section>
 
@@ -125,7 +132,7 @@
 					<a class = "project" href="https://github.com/alankcf/BreakoutProject" target="_blank" rel="noopener noreferrer"><b>Atari Breakout,</b></a> 
 					<a class = "project" href="https://github.com/alankcf/PaintAppProject" target="_blank" rel="noopener noreferrer"><b>Paint App,</b></a> and
 					<a class = "project" href="https://github.com/alankcf/DungeonsProject" target="_blank" rel="noopener noreferrer"><b>Dungeon Crawl</b></a> <br><br><br>
-					A few results of the projects I've made in my journey! Through the use of Processing (simple Java), some of these model classic arcade games (Asteroids, Atari Breakout and Pong) while
+					A few results of the projects I've made in my programming journey! Through the use of Processing (simple Java), some of these are my take on classic arcade games (Asteroids, Atari Breakout and Pong) while
 					the concept of others are a bit newer (Dungeon Crawl and Paint App).</p>
 			</section>
 		
@@ -133,8 +140,9 @@
 		<!--replit calculator (coming)-->
 	</section>
 </body>
-<!--end of page-->
+
 <footer>
 	<p> &copy; 2023 Alan Fung.</p>
 </footer>
+
 </html>

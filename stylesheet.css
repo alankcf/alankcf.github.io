@@ -60,7 +60,7 @@ a.nav:active {
 .titlesection {
     width: 100%;
     background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);/*#025cc3;*/
-    /*background-image: url('images/plane.jpeg');
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('sunplane.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; */
@@ -98,11 +98,14 @@ h1, h2 {
 
 /* Formatting for website description section */
 .aboutme, .description {
-    background-color: skyblue; 
+    /*background-color: skyblue; */
+    /*background: linear-gradient(120deg, rgba(2,0,36,1), rgba(9,9,121,1));*/
+    background-color: skyblue;
     margin-top: 0px;
     width: 100%;
     text-align: center;
     padding-top: 50px;
+    color: black;
 }
 
 /* Font format for site description text, first paragraph */
