@@ -104,7 +104,7 @@ h1, h2 {
     margin-top: 0px;
     width: 100%;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 35px;
     color: black;
 }
 
@@ -121,7 +121,7 @@ p.whoami {
 /* Formatting for education section */
 .education {
     /*background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(181,182,124,1) 100%);
-    */background-color: #10769e;
+    */background-color: #1388b7;
 }
 
 h3.educationtitle {
@@ -143,6 +143,7 @@ h3.educationtitle {
     width: 75%;
     padding-right: 0px;
     margin: auto;
+    font-size: 20px;
 }
 
 .projectwebsite, .project3description, .project2describe {
@@ -153,6 +154,13 @@ h3.educationtitle {
     transition: box-shadow .6s;
     font-family: 'Varela Round', sans-serif;
     text-align: center;
+    overflow: hidden;
+}
+.projectwebsite img, .project2describe img, .project3description, img {
+    transition:transform .3s ease-in-out
+}
+.projectwebsite:hover img, .project2describe:hover img, .project3description:hover img {
+    transform:scale(1.1)
 }
 
 a.project:visited {
