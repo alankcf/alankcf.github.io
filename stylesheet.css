@@ -2,6 +2,7 @@ body, html {
     font-family: Arial;
     color: black;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /* Formatting for all elements in site */
@@ -97,7 +98,7 @@ h1, h2 {
   }
 
 /* Formatting for website description section */
-.aboutme, .description {
+.aboutme {
     /*background-color: skyblue; */
     /*background: linear-gradient(120deg, rgba(2,0,36,1), rgba(9,9,121,1));*/
     background-color: skyblue;
@@ -108,26 +109,70 @@ h1, h2 {
     color: black;
 }
 
+.description {
+    background-color: skyblue;
+    width: 50%; 
+    color: black;
+    float: left;
+} 
+
+.skills {
+    float: right;
+    width: 50%;
+}
+
 /* Font format for site description text, first paragraph */
 p.whoami {
+    text-align: left;
     font-size: 20px;
-    padding: 90px;
-    padding-top: 0px;
-    padding-bottom: 50px;
+    padding: 110px;
+    padding-top: 30px;
+    padding-bottom: 90px;
     font-family: 'Varela Round', sans-serif;
     line-height: 1.5em;
+    width: 80%;
+}
+
+p.skilllist {
+    text-align: left;
+    font-size: 20px;
+    padding: 110px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 4.2em;
+    width: 10%;
+}
+
+li {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 110px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.vertical {
+    border-left: 3px solid black;
+    height: 360px;
+    position: absolute;
+    left: 5%;
+    border-radius: 20px;
 }
 
 /* Formatting for education section */
 .education {
-    /*background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(181,182,124,1) 100%);
-    */background-color: #1388b7;
+    background-color: #1388b7;
+    background: linear-gradient(90deg, rgba(9,25,121,1) 0%, rgba(255,0,0,1) 100%);
+    float: left;
+    width: 100%;
+    color: white;
 }
 
 h3.educationtitle {
     padding-top: 50px;
     padding-bottom: 30px;
     padding-left: 95px;
+    color: white;
 }
 
 /* Formatting for work and project section */
@@ -156,9 +201,11 @@ h3.educationtitle {
     text-align: center;
     overflow: hidden;
 }
+
 .projectwebsite img, .project2describe img, .project3description, img {
     transition:transform .3s ease-in-out
 }
+
 .projectwebsite:hover img, .project2describe:hover img, .project3description:hover img {
     transform:scale(1.1)
 }
@@ -192,7 +239,7 @@ h3 {
 
 h3.sections {
     padding-left: 95px;
-    padding-top: 85px;
+    padding-top: 780px;
 }
 
 /* Font formatting: h4 for items in education list */
@@ -227,6 +274,7 @@ p.classwork {
         padding-left: 7%;
         padding-right: 7%;
     }
+
     h2 {
         padding: 5px;
     }
@@ -264,4 +312,18 @@ p.classwork {
         text-align: center;
         padding-left: 0px;
     }
+
+    .skills, .description {
+        float: left;
+        width: 100%;
+    }
+
+    p.skilllist, p.whoami, p.skilllist {
+        text-align: center;
+    }
+
+    .vertical {
+        border-left: 3px solid skyblue;
+    }
+
 }
