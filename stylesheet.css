@@ -61,10 +61,6 @@ a.nav:active {
 .titlesection {
     width: 100%;
     background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);/*#025cc3;*/
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('sunplane.jpeg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; */
     text-align: center;
 }
 
@@ -89,7 +85,7 @@ h1, h2 {
 
 /* Formatting for header icons */
 .fa {
-    padding-top: 15px;
+    padding-top: 22px;
     padding-bottom: 230px;
 }
 
