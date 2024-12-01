@@ -62,6 +62,18 @@ a.nav:active {
     width: 100%;
     background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);/*#025cc3;*/
     text-align: center;
+    overflow: hidden;
+}
+
+.titlesection svg {
+    position: relative;
+    display: block;
+    width: calc(206% + 1.3px);
+    height: 102px;
+}
+
+.titlesection .shape-fill {
+    fill: skyblue;
 }
 
 /* Font formatting: h1 for large title page font */
@@ -101,20 +113,21 @@ h1, h2 {
     margin-top: 0px;
     width: 100%;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 15px;
     color: black;
 }
 
 .description {
     background-color: skyblue;
-    width: 50%; 
+    width: 100%; 
     color: black;
     float: left;
 } 
 
 .skills {
     float: right;
-    width: 50%;
+    width: 100%;
+    background-color: skyblue;
 }
 
 /* Font format for site description text, first paragraph */
@@ -123,10 +136,11 @@ p.whoami {
     font-size: 20px;
     padding: 110px;
     padding-top: 30px;
-    padding-bottom: 90px;
-    font-family: 'Varela Round', sans-serif;
+    padding-bottom: 10px;
+    /*font-family: 'Varela Round', sans-serif; */
     line-height: 1.5em;
     width: 80%;
+    font-family: "Parkinsans", sans-serif;
 }
 
 p.skilllist {
@@ -135,30 +149,37 @@ p.skilllist {
     padding: 110px;
     padding-top: 10px;
     padding-bottom: 1px;
-    font-family: 'Varela Round', sans-serif;
+    font-family: "Parkinsans", sans-serif;
     line-height: 4.2em;
-    width: 10%;
+}
+
+.list {
+    width: 45%;
+    float: left;
 }
 
 li {
     text-align: left;
     font-size: 20px;
-    padding-left: 110px;
-    font-family: 'Varela Round', sans-serif;
+    padding-left: 130px;
+    text-indent: -20px; /* Same value as padding-left */ 
+    font-family: "Parkinsans", sans-serif;
+    list-style-type: inherit;
 }
 
 .vertical {
     border-left: 3px solid black;
-    height: 360px;
+    height: 430px;
     position: absolute;
     left: 5%;
+    top: 130%;
     border-radius: 20px;
 }
 
 /* Formatting for education section */
 .education {
     background-color: #1388b7;
-    background: linear-gradient(90deg, rgba(9,25,121,1) 0%, rgba(255,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(9,25,121,1) 50%, rgba(255,0,0,1) 100%);
     float: left;
     width: 100%;
     color: white;
@@ -173,8 +194,16 @@ h3.educationtitle {
 
 /* Formatting for work and project section */
 .work {
-    background-color: skyblue;
-    font-family: 'Inter', sans-serif;	
+    background-color: #1C5D4E;
+    font-family: "Parkinsans", sans-serif;
+}
+
+h3.projects {
+    padding-top: 950px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Parkinsans", sans-serif;
 }
 
 /* Formatting for project descriptions */
@@ -235,7 +264,7 @@ h3 {
 
 h3.sections {
     padding-left: 95px;
-    padding-top: 780px;
+    padding-top: 60%;
 }
 
 /* Font formatting: h4 for items in education list */

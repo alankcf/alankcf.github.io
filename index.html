@@ -1,6 +1,6 @@
 <!--
 Name: 			Alan Fung
-Date:			July 2024 (Last Updated)
+Date:			November 2024 (Last Updated)
 Description:	Personal Website
 -->
 
@@ -20,6 +20,7 @@ Description:	Personal Website
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sogdian&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
 		
 		<!--stylesheet link-->
 		<link href = "stylesheet.css" type="text/css" rel="stylesheet">
@@ -47,7 +48,7 @@ Description:	Personal Website
 		<section class = "navigation">
 			<a class = "nav" href="#aboutme">About</a></li>
 			<a class = "nav" href="#education">Education</a></li>
-			<a class = "nav"" href="#work">Projects</a></li>
+			<a class = "nav" href="#work1">Projects</a></li>
 		</section>
 
 		<!--introduction-->
@@ -77,6 +78,10 @@ Description:	Personal Website
 		<a href=mailto:afung05@student.ubc.ca target="_blank">
 			<i class="fa fa-envelope-square" style="color: mediumaquamarine; font-size:62px; padding-left: 12px;"></i>
 		</a> 
+
+		<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+			<path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+		</svg>
 	</header>
 	
 	<!--title for site description #74C0FC-->
@@ -86,30 +91,43 @@ Description:	Personal Website
 
 	<!--site description-->
 	<section class = "description" id = "description">
-		<!--vertical line-->
-		<div class = "vertical"></div>
+
 		<p class = "whoami"> <b style = "font-size: 23px">About me</b><br><br> 
-			Hello, people of the Internet, to my  personal site! 
-			My name is Alan Fung and I am currently a second-year engineering student 
+			Hello, people of the Internet, to my personal site! 
+			My name is Alan Fung and I am currently a second-year civil engineering student 
 			studying at the <a href = "https://engineering.ubc.ca" target="_blank">University of British Columbia</a>.
-			Outside of school, you'll probably catch me playing the piano, 
-			hiking, and working on some personal <a href="#work">projects</a>. I appreciate your visit and would love for you to explore some of the things I've been up to, connect, or reach out! 
-			Made from scratch, please note that this site is still a work in progress, as I continue my learning journey!
+			Outside of school, you'll probably catch me playing the piano, hiking, or working on some projects. 
+			Made from scratch, please note that this site is still a work in progress.
+			<br><br>I appreciate your visit and exploring some of the things I've been up to. Let's <a href="https://www.linkedin.com/in/alankcf">connect</a>! 
 		</p>
 	</section>	
 
-	<section class = "skills" id = "skills"> <p class = "skilllist"> 
-		<b style = "font-size: 23px">Interests</b> <br> 
+	<section class = "skills" id = "skills">  
+		
+		<section class = "list"> <p class = "skilllist">
+		<b style = "font-size: 23px">Proficent In</b> <br> 
 			
-				<li>Transportation & Logistics</li>
-				<li>Web Design</li>
-				<li>Computation</li>
-				<li>Education & Engineering Outreach</li>
-				<li>Canucks Hockey</li>
-				<li style = "padding-bottom: 50px">Reading</li>
+				<li>Autodesk AutoCAD</li>
+				<li>C Programming</li>
+				<li>MATLAB</li>
+				<li>Microsoft Office (Excel, PowerPoint, Sharepoint, Teams & Word)</li>
 		  	</ul> 
 		</p>
-		<!--add skills-->
+		</section>
+
+		<section class = "list"><p class = "skilllist">
+			<b style = "font-size: 23px">Interests</b><br>
+				
+					<li>Transportation & Logistics</li>
+					<li>Web Design</li>
+					<li>Music</li>
+					<li>Computation</li>
+					<li>Teaching & Education</li>
+					<li>Vancouver Canucks Hockey</li>
+					<li style = "padding-bottom: 80px">Current Affairs</li>
+				  </ul> 
+			</p>
+			</section>
 	</section>
 
 	<!--education portion-->
@@ -119,15 +137,14 @@ Description:	Personal Website
 
 		<h4 class = "schoolname">University of British Columbia</h4>
 		<h5 class = "typeofdegree">Bachelor of Applied Science in Civil Engineering | September 2023-Present</h5>
-		<p class = "classwork"> <i>Anticipated Graduation:</i> May 2027	
-		</p>
+		<p class = "classwork"> <i>Anticipated Graduation:</i> May 2027	</p>
 	</section>
 
 	<!--structure for the project section-->
 	<section class = "work" id = "work">
-		<h3 class = "sections"> Projects</h3>
+		<h3 class = "projects">Some things I've been up to...</h3>
 
-			<section class = "project1">
+			<section class = "project1" id = "work1">
 				<p class = projectwebsite> 
 					&#128421; <a class = "project" href="https://github.com/alankcf/alankcf.github.io" target="_blank" rel="noopener noreferrer"><b>Personal Website</b></a> <br><br> 
 					<img src="images/frontpage.png" style="width:70%;height:60%;" alt="Front Webpage" >
@@ -137,14 +154,14 @@ Description:	Personal Website
 				</p>
 			</section>
 			
-			<section class = "project2">
+			<!-- <section class = "project2">
 				<p class = project2describe>
 					&#128240; <a class = "project"> <b>Media Literacy Website</b></a> <br><br>
 					<img src="images/media.png" style="width:90%;height:30%;" alt="Front Webpage">
 					<br><br>A past project I made that explores the foundations of media literacy 
 					as we receive information in increasingly digitalized forms. Discussion of the dangers of deception, bias, and disinformation. Made through Google Sites.
-				</p>
-			</section>
+				</p> 
+			</section> -->
 
 			<section class = "project3" >
 				<p class = project3description> 
